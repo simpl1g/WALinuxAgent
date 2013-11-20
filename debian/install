@@ -1,1 +1,3 @@
 waagent usr/sbin
+config/logrotate.d/waagent etc/logrotate.d/
+config/waagent.conf etc/

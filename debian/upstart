@@ -1,7 +1,7 @@
 description "Windows Azure Linux agent"
 author "Ben Howard <ben.howard@canonical.com>"
 
-start on mounted MOUNTPOINT=/
+manual
 stop on runlevel [!2345]
 
 pre-start script

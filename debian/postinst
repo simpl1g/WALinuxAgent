@@ -7,7 +7,7 @@ fi
 
 case "$1" in
     configure)
-        waagent --setup --force
+        # waagent --setup --force
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
